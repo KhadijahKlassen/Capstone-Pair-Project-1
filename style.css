@@ -1,0 +1,245 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    z-index: 1;
+}
+
+header .logo a {
+    font-size: 30px;
+    color: black;
+    padding: 15px 30px;
+}
+
+header .logo a span {
+    color: maroon;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li a {
+    margin: 5px 20 px;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px;
+}
+
+header nav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("images/bg-hq3.jpg");
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content h2 {
+    font-size: 32px;
+    padding: 5px;
+    color: black;
+}
+
+.content p {
+    font-size: 22px;
+    color: black;
+}
+
+/* Menu */
+
+.menu {
+    background-color: white;
+    width: 100%;
+}
+
+.menu .menu-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header h3 {
+    color: black;
+    padding: 10px 30px;
+}
+
+.menu-header h4 {
+    color: black;
+    padding: 10px 20px;
+}
+
+.menu .flower-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    background-color: #F7EBED;
+    flex-wrap: wrap;
+}
+
+.menu .diff-flower-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.menu .diff-flower-image img {
+    border-radius: 50%;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Shop */
+
+.shop {
+    background-color: white;
+    width: 100%;
+}
+
+.shop .shop-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop-header h3 {
+    color: black;
+    padding: 10px 30px;
+}
+
+.shop-header h4 {
+    color: black;
+    padding: 10px 20px;
+}
+
+.flower-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F7EBED;
+    padding: 50px 0;
+    flex-wrap: wrap;
+}
+
+.flower-box .flower {
+    width: 350px; 
+    margin: 10px; 
+}
+
+.flower-box .flower-image {
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+
+.flower-box .flower-image img:hover {
+    transform: scale(1.1);
+    transition: transform .4s ease-in-out;
+}
+
+.flower-box.flower-body {
+    padding: 20px;
+    color: white;
+    border: 3px solid black;
+}
+
+.flower-box .flower-box.flower-body h3 {
+    padding: 10px 0;
+}
+
+.flower-box.flower-body i {
+    color: yellow;
+    font-size: 10px;
+    position: relative;
+}
+
+.flower-box .flower-box.flower-body .cash {
+    font-size: 22px;
+    margin-left: 90px;
+}
+
+
+/* Contact */
+/* Responsive */
+@media(max-width: 992px){
+
+    /* Header  */
+
+    /* Content */
+
+    /* footer  */
+}
+
+@media(max-width:410px){
+
+    /* header  */
+
+    /* content  */
+
+
+}
+
+footer {
+    background-color: #F7EBED;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Additional styles for the rest of the page */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
